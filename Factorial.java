@@ -6,6 +6,18 @@ public class Factorial {
         }
         
         return num * factorial(num-1);
+        
+        /*
+        // Comment out above then uncomment this for non-recursive style 
+        for( int i = num ; i > 1 ; i-- ) {
+            
+            num *= i-1;        
+            
+        }
+
+        return num;
+        */
+    
     }
 
     public static void main(String[] args) {
